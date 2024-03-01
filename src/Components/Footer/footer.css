@@ -1,0 +1,52 @@
+.footer_outer {
+  color: grey;
+  background-color: #1111;
+  display: flex;
+  justify-content: center;
+}
+
+.footer_inner {
+  width: 70%;
+}
+
+.footer_icons {
+  width: 15%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+  color: white;
+}
+
+
+.footer_link {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_link ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  height: 12vh;
+  justify-content: space-around;
+}
+
+.footer_link ul li {
+  cursor: pointer;
+}
+
+.service_code {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: white 1px solid;
+  width: 10vh;
+  margin: 10px 0;
+  cursor: pointer;
+
+}
+
+.Copy-Write {
+  font-size: 12px;
+  margin-bottom: 10px;
+}

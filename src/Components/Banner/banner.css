@@ -1,0 +1,55 @@
+.banner {
+  margin-bottom: 50px;
+  color: aliceblue;
+  height: 95vh;
+}
+
+.banner_content {
+  margin-left: 30px;
+  padding-top: 300px;
+}
+
+.banner_description {
+  font-size: 0.9rem;
+  max-width: 360px;
+  line-height: 1.25;
+  padding: 1rem 0;
+}
+
+.banner_button {
+  cursor: pointer;
+  color: white;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: 800;
+  border-radius: 0.2vw;
+  padding: 1rem 3rem;
+  margin-right: 2rem;
+  background: #000;
+}
+
+.play {
+  color: #000;
+  background: white;
+}
+
+.banner_button:hover {
+  color: black;
+  background: #a79b9b;
+  transition: all 0.3s;
+}
+
+.banner_fade {
+  height: 42%;
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgba(26, 24, 24, 0.91),
+    #111
+  );
+}
+
+.banner_title {
+  font-size: 3rem;
+  padding-bottom: 0.5rem;
+}
